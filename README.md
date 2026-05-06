@@ -1,4 +1,4 @@
-# Flock Freight Interview Prep
+# Interview Prep
 
 Focused prep for a Senior Full Stack Product Engineering technical screen.
 

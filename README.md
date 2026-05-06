@@ -14,11 +14,11 @@ The job description also mentions Java, Spring Boot, REST/gRPC, SQL, production 
 
 ## How To Use This Repo
 
-1. Start with `mock-interviews/01-oop-shipment-tracking.md`.
-2. Code the Java exercise in `java-oop/src/main/java/com/interviewprep/shipping`.
-3. Review the Spring Boot API shape in `spring-boot-shipping-api`.
-4. Practice the React/TypeScript prompt in `react-typescript/shipment-list-prompt.md`.
-5. Use `notes/talk-track.md` before the interview to rehearse how to communicate.
+1. Start with `notes/talk-track.md`.
+2. Open an exercise under `exercises/`.
+3. Read that exercise's `README.md` prompt.
+4. Implement the code in `starter/` without looking at `solution/`.
+5. Compare against `solution/` and rehearse the explanation out loud.
 
 ## Tooling
 
@@ -50,14 +50,27 @@ The main practice domain is shipment tracking because it maps well to product-en
 
 This gives realistic practice without needing their actual codebase.
 
-## Run The Plain Java Exercise
+## Exercises
+
+- `exercises/01-java-oop-shipment-tracking`: OOP design and Java classes
+- `exercises/02-data-structures-latest-event`: hash map latest-event problem
+- `exercises/03-spring-boot-shipment-api`: controller/service/repository API shape
+- `exercises/04-react-typescript-shipment-list`: React + TypeScript component prompt
+
+## Compile A Plain Java Starter
 
 ```bash
-javac -d java-oop/out java-oop/src/main/java/com/interviewprep/shipping/*.java
-java -cp java-oop/out com.interviewprep.shipping.Main
+javac -d exercises/01-java-oop-shipment-tracking/starter/out exercises/01-java-oop-shipment-tracking/starter/src/main/java/com/interviewprep/shipping/*.java
 ```
 
-Expected output:
+The starter may fail at runtime until you complete the TODOs. To run the reference solution:
+
+```bash
+javac -d exercises/01-java-oop-shipment-tracking/solution/out exercises/01-java-oop-shipment-tracking/solution/src/main/java/com/interviewprep/shipping/*.java
+java -cp exercises/01-java-oop-shipment-tracking/solution/out com.interviewprep.shipping.Main
+```
+
+Expected solution output:
 
 ```text
 Latest event: IN_TRANSIT in Yuma

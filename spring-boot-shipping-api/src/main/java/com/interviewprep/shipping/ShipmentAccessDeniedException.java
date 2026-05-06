@@ -1,4 +1,4 @@
-package com.flockprep.shipping;
+package com.interviewprep.shipping;
 
 public class ShipmentAccessDeniedException extends RuntimeException {
     public ShipmentAccessDeniedException() {

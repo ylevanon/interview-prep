@@ -1,4 +1,4 @@
-package com.flockprep.shipping;
+package com.interviewprep.shipping;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

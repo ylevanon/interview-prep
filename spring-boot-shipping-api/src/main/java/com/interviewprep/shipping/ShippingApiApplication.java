@@ -1,4 +1,4 @@
-package com.flockprep.shipping;
+package com.interviewprep.shipping;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

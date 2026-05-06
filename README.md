@@ -1,4 +1,4 @@
-# Interview Prep
+# Senior Engineer Interview Prep
 
 Focused prep for a Senior Full Stack Product Engineering technical screen.
 
@@ -15,7 +15,7 @@ The job description also mentions Java, Spring Boot, REST/gRPC, SQL, production 
 ## How To Use This Repo
 
 1. Start with `mock-interviews/01-oop-shipment-tracking.md`.
-2. Code the Java exercise in `java-oop/src/main/java/com/flockprep/shipping`.
+2. Code the Java exercise in `java-oop/src/main/java/com/interviewprep/shipping`.
 3. Review the Spring Boot API shape in `spring-boot-shipping-api`.
 4. Practice the React/TypeScript prompt in `react-typescript/shipment-list-prompt.md`.
 5. Use `notes/talk-track.md` before the interview to rehearse how to communicate.
@@ -38,7 +38,7 @@ Current machine status:
 
 ## What We Are Coding
 
-The main practice domain is shipment tracking because it maps well to Flock Freight:
+The main practice domain is shipment tracking because it maps well to product-engineering interviews:
 
 - Shipments
 - Tracking events
@@ -53,8 +53,8 @@ This gives realistic practice without needing their actual codebase.
 ## Run The Plain Java Exercise
 
 ```bash
-javac -d java-oop/out java-oop/src/main/java/com/flockprep/shipping/*.java
-java -cp java-oop/out com.flockprep.shipping.Main
+javac -d java-oop/out java-oop/src/main/java/com/interviewprep/shipping/*.java
+java -cp java-oop/out com.interviewprep.shipping.Main
 ```
 
 Expected output:
@@ -63,4 +63,3 @@ Expected output:
 Latest event: IN_TRANSIT in Yuma
 Latest event count: 1
 ```
-# interview-prep

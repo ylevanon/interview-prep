@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.flockprep</groupId>
+    <groupId>com.interviewprep</groupId>
     <artifactId>shipping-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>shipping-api</name>
